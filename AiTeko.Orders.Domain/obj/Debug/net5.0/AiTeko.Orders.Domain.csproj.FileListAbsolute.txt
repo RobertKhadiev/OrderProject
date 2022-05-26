@@ -1,0 +1,15 @@
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\bin\Debug\net5.0\AiTeko.Orders.Domain.deps.json
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\bin\Debug\net5.0\AiTeko.Orders.Domain.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\bin\Debug\net5.0\ref\AiTeko.Orders.Domain.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\bin\Debug\net5.0\AiTeko.Orders.Domain.pdb
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\bin\Debug\net5.0\AiTeko.Order.DAL.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\bin\Debug\net5.0\AiTeko.Order.DAL.pdb
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\obj\Debug\net5.0\AiTeko.Orders.Domain.csproj.AssemblyReference.cache
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\obj\Debug\net5.0\AiTeko.Orders.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\obj\Debug\net5.0\AiTeko.Orders.Domain.AssemblyInfoInputs.cache
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\obj\Debug\net5.0\AiTeko.Orders.Domain.AssemblyInfo.cs
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\obj\Debug\net5.0\AiTeko.Orders.Domain.csproj.CoreCompileInputs.cache
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\obj\Debug\net5.0\AiTeko.Orders.Domain.csproj.CopyComplete
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\obj\Debug\net5.0\AiTeko.Orders.Domain.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\obj\Debug\net5.0\ref\AiTeko.Orders.Domain.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Domain\obj\Debug\net5.0\AiTeko.Orders.Domain.pdb

@@ -1,0 +1,15 @@
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\bin\Debug\net5.0\AiTeko.Order.DAL.deps.json
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\bin\Debug\net5.0\AiTeko.Order.DAL.runtimeconfig.json
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\bin\Debug\net5.0\AiTeko.Order.DAL.runtimeconfig.dev.json
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\bin\Debug\net5.0\AiTeko.Order.DAL.dll
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\bin\Debug\net5.0\ref\AiTeko.Order.DAL.dll
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\bin\Debug\net5.0\AiTeko.Order.DAL.pdb
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\obj\Debug\net5.0\AiTeko.Order.DAL.csproj.AssemblyReference.cache
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\obj\Debug\net5.0\AiTeko.Order.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\obj\Debug\net5.0\AiTeko.Order.DAL.AssemblyInfoInputs.cache
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\obj\Debug\net5.0\AiTeko.Order.DAL.AssemblyInfo.cs
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\obj\Debug\net5.0\AiTeko.Order.DAL.csproj.CoreCompileInputs.cache
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\obj\Debug\net5.0\AiTeko.Order.DAL.dll
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\obj\Debug\net5.0\ref\AiTeko.Order.DAL.dll
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\obj\Debug\net5.0\AiTeko.Order.DAL.pdb
+E:\developer\AiTeko.Orders\AiTeko.Order.DAL\obj\Debug\net5.0\AiTeko.Order.DAL.genruntimeconfig.cache
