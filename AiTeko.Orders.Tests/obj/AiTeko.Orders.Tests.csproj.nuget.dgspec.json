@@ -191,13 +191,25 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Coderful.EntityFramework.Testing": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "FakeItEasy": {
               "target": "Package",
               "version": "[7.3.1, )"
             },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

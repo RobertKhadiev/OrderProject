@@ -9,8 +9,11 @@
       "AiTeko.Orders.Tests/1.0.0": {
         "dependencies": {
           "AiTeko.Orders.Web": "1.0.0",
+          "Coderful.EntityFramework.Testing": "1.5.1",
           "FakeItEasy": "7.3.1",
+          "FluentAssertions": "5.10.3",
           "Microsoft.NET.Test.Sdk": "16.9.4",
+          "NSubstitute": "4.3.0",
           "coverlet.collector": "3.0.2",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
@@ -42,7 +45,7 @@
           }
         }
       },
-      "Castle.Core/4.3.1": {
+      "Castle.Core/4.4.1": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
           "System.Collections.Specialized": "4.3.0",
@@ -58,19 +61,54 @@
         "runtime": {
           "lib/netstandard1.5/Castle.Core.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.3.1.0"
+            "fileVersion": "4.4.1.0"
+          }
+        }
+      },
+      "Coderful.EntityFramework.Testing/1.5.1": {
+        "dependencies": {
+          "EntityFramework": "6.1.1",
+          "Moq": "4.2.1408.717"
+        },
+        "runtime": {
+          "lib/net45/Coderful.EntityFramework.Testing.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
       "coverlet.collector/3.0.2": {},
+      "EntityFramework/6.1.1": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.30610.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.30610.0"
+          }
+        }
+      },
       "FakeItEasy/7.3.1": {
         "dependencies": {
-          "Castle.Core": "4.3.1"
+          "Castle.Core": "4.4.1"
         },
         "runtime": {
           "lib/net5.0/FakeItEasy.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.3.1.0"
+          }
+        }
+      },
+      "FluentAssertions/5.10.3": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/FluentAssertions.dll": {
+            "assemblyVersion": "5.10.3.0",
+            "fileVersion": "5.10.3.0"
           }
         }
       },
@@ -641,6 +679,14 @@
           "Microsoft.NETCore.Platforms": "3.1.0"
         }
       },
+      "Moq/4.2.1408.717": {
+        "runtime": {
+          "lib/net40/Moq.dll": {
+            "assemblyVersion": "4.2.1408.717",
+            "fileVersion": "4.2.1408.717"
+          }
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -722,6 +768,17 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.1.20720"
+          }
+        }
+      },
+      "NSubstitute/4.3.0": {
+        "dependencies": {
+          "Castle.Core": "4.4.1"
+        },
+        "runtime": {
+          "lib/net5.0/NSubstitute.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
           }
         }
       },
@@ -1779,12 +1836,19 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512"
     },
-    "Castle.Core/4.3.1": {
+    "Castle.Core/4.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8Y/eTr6GTElAGV7eAmJuhfLhGdFpNvaNrQ9UQYDScziLmX+/BLGM+9eQr0IcdNDcPN0ADmbtwT6MgecGKy4obw==",
-      "path": "castle.core/4.3.1",
-      "hashPath": "castle.core.4.3.1.nupkg.sha512"
+      "sha512": "sha512-zanbjWC0Y05gbx4eGXkzVycOQqVOFVeCjVsDSyuao9P4mtN1w3WxxTo193NGC7j3o2u3AJRswaoC6hEbnGACnQ==",
+      "path": "castle.core/4.4.1",
+      "hashPath": "castle.core.4.4.1.nupkg.sha512"
+    },
+    "Coderful.EntityFramework.Testing/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RkbShFRvDACDR4KBgPVulmSsrJ7qVm5no0PMn+PsC0X5KPOxZZBOujgcEA3OBkp28TBxiC1EGR+vIMGdoGEOcA==",
+      "path": "coderful.entityframework.testing/1.5.1",
+      "hashPath": "coderful.entityframework.testing.1.5.1.nupkg.sha512"
     },
     "coverlet.collector/3.0.2": {
       "type": "package",
@@ -1793,12 +1857,26 @@
       "path": "coverlet.collector/3.0.2",
       "hashPath": "coverlet.collector.3.0.2.nupkg.sha512"
     },
+    "EntityFramework/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FdXtqmcaIMLnjS46aQjpQGKaV0PuPhAIYAVHN6vB7UMjMr4iLZsMIz4Nk7m31iUvh+hNPF9t7tZkW0CczGNr6A==",
+      "path": "entityframework/6.1.1",
+      "hashPath": "entityframework.6.1.1.nupkg.sha512"
+    },
     "FakeItEasy/7.3.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ldJSgPLzVdN7MxmaZhdcnAcUya185Eqbqyx5tLjZHATI80UfLnSkQgQczD72qAdx8l3CUkWzNC43zrtnrz/jGQ==",
       "path": "fakeiteasy/7.3.1",
       "hashPath": "fakeiteasy.7.3.1.nupkg.sha512"
+    },
+    "FluentAssertions/5.10.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gVPEVp1hLVqcv+7Q2wiDf7kqCNn7+bQcQ0jbJ2mcRT6CeRoZl1tNkqvzSIhvekyldDptk77j1b03MXTTRIqqpg==",
+      "path": "fluentassertions/5.10.3",
+      "hashPath": "fluentassertions.5.10.3.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.9.4": {
       "type": "package",
@@ -2038,6 +2116,13 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
+    "Moq/4.2.1408.717": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AkC+iGMF3CqeUuSgI/FVcZWLCc+HJ2MNGtWZa03a5CiLku+vLFJVU7lWO7I5CoASU73KYqtivfnCq2U4fljByQ==",
+      "path": "moq/4.2.1408.717",
+      "hashPath": "moq.4.2.1408.717.nupkg.sha512"
+    },
     "NETStandard.Library/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -2051,6 +2136,13 @@
       "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+    },
+    "NSubstitute/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c0nY4GGSe5KidQemTk+CTuDLdv7hLvHHftH6vRbKoYb6bw07wzJ6DdgA0NWrwbW3xjmp/ByEskCsUEWAaMC20g==",
+      "path": "nsubstitute/4.3.0",
+      "hashPath": "nsubstitute.4.3.0.nupkg.sha512"
     },
     "NuGet.Frameworks/5.0.0": {
       "type": "package",

@@ -152,3 +152,9 @@ E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\obj\Debug\net5.0\AiTeko.Orders.Te
 E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\obj\Debug\net5.0\ref\AiTeko.Orders.Tests.dll
 E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\obj\Debug\net5.0\AiTeko.Orders.Tests.pdb
 E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\obj\Debug\net5.0\AiTeko.Orders.Tests.genruntimeconfig.cache
+E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\bin\Debug\net5.0\Coderful.EntityFramework.Testing.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\bin\Debug\net5.0\EntityFramework.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\bin\Debug\net5.0\Moq.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\bin\Debug\net5.0\NSubstitute.dll
+E:\developer\AiTeko.Orders\AiTeko.Orders.Tests\bin\Debug\net5.0\FluentAssertions.dll

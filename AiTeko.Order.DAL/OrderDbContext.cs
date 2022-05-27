@@ -10,6 +10,11 @@ namespace AiTeko.Order.DAL
             Database.EnsureCreated();
         }
 
+        public OrderDbContext()
+        {
+
+        }
+
         public DbSet<OrderEntity> Orders { get; set; }
         public DbSet<ProductEntity> Products { get; set; }
         public DbSet<UserEntity> Users { get; set; }

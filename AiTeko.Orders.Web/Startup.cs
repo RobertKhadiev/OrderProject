@@ -41,6 +41,16 @@ namespace AiTeko.Orders.Web
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AiTeko.Orders.Web", Version = "v1" });
             });
+            services.AddCors(options =>
+            {
+                options.AddPolicy("cors", policy =>
+                {
+                    policy.WithOrigins("http://localhost:3000");
+                    policy.WithMethods("GET", "POST", "PUT", "DELETE");
+                    policy.AllowAnyHeader();
+                });
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +63,7 @@ namespace AiTeko.Orders.Web
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AiTeko.Orders.Web v1"));
             }
 
+            app.UseCors("cors");
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
